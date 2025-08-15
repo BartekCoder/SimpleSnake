@@ -46,7 +46,7 @@ void print_game(int x,int y,int poz_x,int poz_y,int a_x,int a_y,int count,part* 
             if (poz_x == i2 && poz_y == i){
                 putchar('0');
             } else if (a_x == i2 && a_y == i){
-                putchar('ó');
+                putchar('Q');
             } else {
                 for (int j = 0;j<count;j++){
                     if (objects[j].x == i2 && objects[j].y == i){
